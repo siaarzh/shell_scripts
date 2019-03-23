@@ -26,6 +26,7 @@ curl -L https://get.oh-my.fish | fish
 
 # 5. Enable bobthefish theme
 # https://github.com/oh-my-fish/theme-bobthefish
+rm -rf ~/.cache/omf
 omf install bobthefish
 
 # 6. (OPTIONAL) Set fish as default shell
